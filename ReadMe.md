@@ -33,7 +33,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.  
 
-##Lab 01  
+## Lab 01  
 
 Overview
 By the end of this module, you will create an application that displays images and information of horned animals. This application will allow you to filter the images by number of horns and chose your favorite image.
