@@ -1,6 +1,4 @@
-## Class 01  
-  
-React  
+## Class 01 - React
   
 React uses component based architecture - there are different types of architecture: header, footer, side and these are components.  
 There will be other components depending on what you are building  
