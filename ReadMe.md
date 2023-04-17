@@ -38,6 +38,6 @@ Component based architecutre has points that make is good to use:
  
 ### Class 6  
 
-![image](https://user-images.githubusercontent.com/122818127/232608473-667c2b01-58a3-479a-a97b-f9e2990eb1f2.png)
+insert screenshot
 
 
