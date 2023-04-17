@@ -36,4 +36,7 @@ Component based architecutre has points that make is good to use:
 8. reliable  
 9. independent - if there is a problem only one component is affected  
  
+### Class 6  
+
+![image](https://user-images.githubusercontent.com/122818127/232607823-09561837-b8ee-4bdf-b9bb-51547eada15e.png)
 
