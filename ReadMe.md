@@ -36,14 +36,205 @@ Component based architecutre has points that make is good to use:
 8. reliable  
 9. independent - if there is a problem only one component is affected 
 
+### Class 1 (Tim)  
 
-Props - short for properties, passes info from one component to another   
+Props - short for properties, passes info from one component to another BUT can only pass value down the hierarchy (bubble up - if run a fuction as a prop somehow takes the property upwards? not sure about this)   
+
+Props is when you parse a component giving info from one component to another    
+prop is e.g. ```functionHeader ({handleMode})
 
 Destructuring   
 
-const - cannot change  
+const - cannot change, if you use const and try to change it will error 
 
 let - can change 
+
+dot notation .return 
+get me this item from this location e.g. tim.location 
+
+jsk - mix of js and html  
+
+ASCII  
+Why is ASCII used?
+ASCII is used as a method to give all computers the same language, allowing them to share documents and files. ASCII is important because the development gave computers a common language.  It has largely been replaced by UNICODE  
+
+###Class 2 (Tim)  
+#####React State  
+
+in app js in function app(){}  
+can do any js you like  
+
+####Default  
+when you import something from something it assumes its default eg App in the App component - but use curly brackets to make it look for the name (destructures it)  
+
+For below we did the Paul O'Grady exercise to pat his head  
+
+++ increases by one  
+take a value, change it and it re-renders on the page 
+``
+const [Pats, setPats] = useState(0):
+``   
+here Pats is the state variable, setPats is the mutation function, useState returns you're array and destructures output of setPat, (0) is the inital value   
+
+JSON  
+
+Array  
+
+regular function  
+
+for Each   
+
+anonymous function - function()  
+
+function needs brackets   
+
+{} is an object   
+
+map() accepts 1 parameter - its an arguent, needs to be a function   
+
+arrow function => is just a function   
+
+1 rem is 16px  
+
+vw - viewport width    
+vh - viewport height  
+
+### Modals   
+
+&& is and - unless all is true doesn't run
+|| is or (computer only has to check until true no matter how many, it stops looking  
+
+code in brackets () is executed first 
+
+==
+=== always use triple equals   
+1===1  
+"1"==="1" - or use 2 equlas means true (i don;t get this)   
+1=="1" will look to see if the frist number 1 is a string and make it a string, if use === triple equals won't convert to a string    
+
+$ string literals 
+
+An exclamation mark is "bang"   
+
+!show modal - this sets it to the opposite of what it currently is  so ! means not and !false means true (so it's not false so means it's true)   
+
+parse from App {handleModal} to Main and from Main to horned Beast 
+
+In horned Beasts make beasts a modal  
+modalData will be an object because the data is already an object  
+
+state variables you can change but no the type   
+
+in JSON data is modal object as one of the beasts   
+
+Parameter in function    
+
+``
+function greet (name)   
+greet("Tim")   
+``   
+(name) is the parameter   
+("Tim") is the argument   
+modalData is beast    
+
+In modal js  
+
+brackets after function is what invokes the function  
+
+see Discord 12/04 post    
+
+& is a gate - an abbreviation of 'if'   
+
+### Forms 14/04   
+``
+data.map(function(){   
+``   
+map is a function   
+
+fieldset - border round form in the form element   
+html for - so you can click on cake label on form  
+
+in forms text is default so don't need to tell it text   
+
+function onChange used because it's like onClick - click and run a function   
+
+``
+setForm({...form, Event.target.name:event.target.value}``  this is js due to curly bracket   
+
+...spread - tells the computer to give the item in the object (properties/innards) without the curly bracket - see line 16    
+
+### Class 6 APIs   
+
+order of execution   
+
+WRRC - web request response cycle 
+
+client - is what your coding, the website when communicating with multiple things e.g. server -> database   
+
+http - hyper text transfer protocol (its a verb)    
+
+##### CRUD
+Create  
+Read  
+Update  
+Delete  
+
+asynchorous code  - you can't guarentee how long it will take to execute  
+
+asynch - code happening seperately   
+
+if you call an api in the url - apis are just urls that returns lots of data   
+
+axios - node module  
+the function runs axios get don't know how long this will take - get a promise so have to use await so it happens rather than just a promise.  To use await (js) need to use asymch before the function - you have to use asynch and await - that's just what you have to do <shrugs>   
+
+res - is response  
+
+App component is one that holds it all together and will hold all the components  
+
+
+the function 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 ### Class 6  
 
