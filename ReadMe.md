@@ -34,7 +34,16 @@ Component based architecutre has points that make is good to use:
 6. replaceable - do not need to change the whole page, just the comonent  
 7. maintainable  
 8. reliable  
-9. independent - if there is a problem only one component is affected  
+9. independent - if there is a problem only one component is affected 
+
+
+Props - short for properties, passes info from one component to another   
+
+Destructuring   
+
+const - cannot change  
+
+let - can change 
  
 ### Class 6  
 
