@@ -4,8 +4,8 @@ I have a package.json in both my server and client folders - copied into this Gi
 
 
 
-``
-➜  weekend-project git:(main) ✗ npm start
+
+``➜  weekend-project git:(main) ✗ npm start
 npm ERR! code ENOENT
 npm ERR! syscall open
 npm ERR! path /home/jane/projects/weekend-project/package.json
@@ -16,5 +16,4 @@ npm ERR! enoent
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /home/jane/.npm/_logs/2023-05-08T16_46_19_027Z-debug-0.log
-➜  weekend-project git:(main) ✗ 
-``
+➜  weekend-project git:(main) ✗ ``
