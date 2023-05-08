@@ -41,7 +41,10 @@ Component based architecutre has points that make is good to use:
 Props - short for properties, passes info from one component to another BUT can only pass value down the hierarchy (bubble up - if run a fuction as a prop somehow takes the property upwards? not sure about this)   
 
 Props is when you parse a component giving info from one component to another    
-prop is e.g. ```functionHeader ({handleMode})``
+prop is e.g. 
+``
+functionHeader ({handleMode})
+``
 
 Destructuring   
 
